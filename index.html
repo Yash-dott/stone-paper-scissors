@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6fb7a193c6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="background">
+        <div class="score_cont">
+            <div class="computer_score">
+                <h4 id="computer_score">Computer Score: 00</h4>
+            </div>
+            <div class="user_score">
+                <h4 id="user_score">Your Score: 00</h4>
+            </div>
+        </div>
+        <div class="main_container">
+            <div class="main_game_screen">
+                <!-- computer_choice -->
+                <!-- <div class="computer_choice">
+                    <div class="container_heading">
+                        <h3>Computer choice</h3>
+                    </div>
+                </div> -->
+                <!-- user_choice -->
+                <div class="user_choice">
+                    <div class="container_heading">
+                        <h3>Your choice</h3>
+                    </div>
+                    <div class="Dice_container">
+                        <div class="stone user_choice_dice">
+                            👊
+                        </div>
+                        <div class="paper user_choice_dice">
+                            🖐️
+                        </div>
+                        <div class="scissors user_choice_dice">
+                            ✌️
+                        </div>
+                    </div>
+                    <div class="game_btns">
+                        <div class="reset_btn">
+                            <input type="button" value="Reset" class="reset_btn">
+                        </div>
+                        <!-- <div class="save_btn">
+                            <input type="button" value="Save game" class="save_game">
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- welcome page -->
+            <div id="welcome_screen">
+                <h3>Stone Paper scissors</h3>
+                <h3>Press start button to play</h3>
+                <input type="text" placeholder="Enter your name" id="user_name_input">
+                <input type="button" value="Start Game" id="main_start_btn">
+            </div>
+            <!-- Save screen -->
+            <div class="game_screen_cont" style="display: none;">
+                <div class="save_screen">
+                    <h4 id="winner_name">Game Saved 🤥</h4>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+</body>
+<script src="assets/js/main.js"></script>
+</html>
